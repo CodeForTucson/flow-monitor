@@ -1,0 +1,10 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "BearCreek_USFS_fence"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.8114098, 32.3110538]
+	}
+}
