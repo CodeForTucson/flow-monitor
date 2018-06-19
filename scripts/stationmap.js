@@ -87,7 +87,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SC_Outlet_TV",
-		"popupContent": "Sabino Creek outlet into the Tanque Verde"
+		"popupContent": "Sabino Creek outlet into Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -97,7 +97,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SabinoCanyonRd",
-		"popupContent": "Sabino Canyon Road crossing of the Tanque Verde"
+		"popupContent": "Sabino Canyon Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -107,7 +107,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "Rustand_spring",
-		"popupContent": "Rustand Spring on the Tanque Verde"
+		"popupContent": "Rustand Spring on Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -117,7 +117,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CraycroftRd_bridge",
-		"popupContent": "Craycroft Rd crossing of the Tanque Verde"
+		"popupContent": "Craycroft Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -127,7 +127,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SwanRd_bridge",
-		"popupContent": "Swan Rd crossing of the Tanque Verde"
+		"popupContent": "Swan Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -137,7 +137,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_TV",
-		"popupContent": "Houghton Rd crossing of the Tanque Verde"
+		"popupContent": "Houghton Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -147,7 +147,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TV_AC_confluence",
-		"popupContent": "Confluence of the Tanque Verde and Agua Caliente"
+		"popupContent": "Confluence of Tanque Verde Creek and Agua Caliente"
 	},
 	"geometry": {
 		"type": "Point",
@@ -157,7 +157,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "WoodlandRd",
-		"popupContent": "Woodland Rd crossing of the Tanque Verde"
+		"popupContent": "Woodland Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -167,11 +167,161 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TanqueVerdeRd_TanqueVerde",
-		"popupContent": "Tanque Verde Rd crossing of the Tanque Verde"
+		"popupContent": "Tanque Verde Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
 		"coordinates": [-110.8227975, 32.2560985]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "HoughtonRd_AC",
+		"popupContent": "Houghton Rd crossing of Agua Caliente Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.8227975, 32.2490404]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "FtLowellRd_AC",
+		"popupContent": "Fort Lowell Rd crossing of Agua Caliente Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7520644, 32.2656578]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "PrinceRd_AC",
+		"popupContent": "Prince Rd crossing of Agua Caliente Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7458746, 32.2731236]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "SoldierTrl_AC",
+		"popupContent": "Soldier Trail crossing of Agua Caliente Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7382582, 32.2841179]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "MilagrosaLane_AC",
+		"popupContent": "Milagrosa Lane crossing of Agua Caliente Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7218192, 32.2944735]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "TVLoopRd",
+		"popupContent": "Tanque Verde Loop Rd crossing of Tanque Verde Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.75626, 32.2406627]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "SoldierTrl_FreemanRd",
+		"popupContent": "Soldier Trail and Freeman Road intersection with Tanque Verde Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7383846, 32.2422181]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "WentworthRd",
+		"popupContent": "Wentworth Rd crossing of Tanque Verde Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7230797, 32.2397744]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "TucsonWildlifeCenter",
+		"popupContent": "Tucson Wildlife Center"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7111397, 32.2363015]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "TanqueVerdeFalls",
+		"popupContent": "Tanque Verde Falls"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.6559603, 32.2549997]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CountryClubRd_loop_crossing",
+		"popupContent": "Country Club Road crossing of Rillito River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9281637, 32.2818768]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CampbellAve_bridge",
+		"popupContent": "Campbell Avenue crossing of Rillito River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9460421, 32.2844432]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "StoneAve_bridge",
+		"popupContent": "Stone Avenue crossing of Rillito River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9721316, 32.2896528]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "LaCanada_Rillito",
+		"popupContent": "La Canada crossing of Rillito River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.997035, 32.2946405]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CaminoDeLaTierra_crossing",
+		"popupContent": "Camino de La Tierra crossing of Rillito River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-111.0395913, 32.3113666]
 	}
 }];
 
