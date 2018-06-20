@@ -117,7 +117,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CraycroftRd_bridge",
-		"popupContent": "Craycroft Rd crossing of Tanque Verde Creek"
+		"popupContent": "Craycroft Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -127,7 +127,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SwanRd_bridge",
-		"popupContent": "Swan Rd crossing of Tanque Verde Creek"
+		"popupContent": "Swan Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -137,7 +137,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_TV",
-		"popupContent": "Houghton Rd crossing of Tanque Verde Creek"
+		"popupContent": "Houghton Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -157,7 +157,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "WoodlandRd",
-		"popupContent": "Woodland Rd crossing of Tanque Verde Creek"
+		"popupContent": "Woodland Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -167,7 +167,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TanqueVerdeRd_TanqueVerde",
-		"popupContent": "Tanque Verde Rd crossing of Tanque Verde Creek"
+		"popupContent": "Tanque Verde Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -177,7 +177,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_AC",
-		"popupContent": "Houghton Rd crossing of Agua Caliente Wash"
+		"popupContent": "Houghton Road crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -187,7 +187,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "FtLowellRd_AC",
-		"popupContent": "Fort Lowell Rd crossing of Agua Caliente Wash"
+		"popupContent": "Fort Lowell Road crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -197,7 +197,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "PrinceRd_AC",
-		"popupContent": "Prince Rd crossing of Agua Caliente Wash"
+		"popupContent": "Prince Road crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -227,7 +227,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TVLoopRd",
-		"popupContent": "Tanque Verde Loop Rd crossing of Tanque Verde Creek"
+		"popupContent": "Tanque Verde Loop Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -247,7 +247,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "WentworthRd",
-		"popupContent": "Wentworth Rd crossing of Tanque Verde Creek"
+		"popupContent": "Wentworth Road crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -287,7 +287,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CampbellAve_bridge",
-		"popupContent": "Campbell Avenue crossing of Rillito River"
+		"popupContent": "Campbell Ave crossing of Rillito River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -297,7 +297,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "StoneAve_bridge",
-		"popupContent": "Stone Avenue crossing of Rillito River"
+		"popupContent": "Stone Ave crossing of Rillito River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -322,6 +322,166 @@ var monitorStations = [{
 	"geometry": {
 		"type": "Point",
 		"coordinates": [-111.0395913, 32.3113666]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "GrantRd",
+		"popupContent": "Grant Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9990954, 32.2505098]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "SpeedwayBlvd",
+		"popupContent": "Speedway Blvd crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.986572, 32.2357137]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "StMarysRd",
+		"popupContent": "St Mary's Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9843308, 32.2294736]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CongressSt",
+		"popupContent": "Congress St crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9842057, 32.2209185]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "StarrPassBlvd",
+		"popupContent": "Starr Pass Blvd crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9907774, 32.206223]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "SilverlakeRd",
+		"popupContent": "Silverlake Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9893619, 32.1995914]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "IrvingtonRd",
+		"popupContent": "Irvington Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9937532, 32.1631775]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "SanXavierRd",
+		"popupContent": "San Xavier Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9953427, 32.1056421]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "PimaMineRd",
+		"popupContent": "Pima Mine Road crossing of Santa Cruz River"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9645638, 32.0013714]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "TanqueVerdeRd_Pantano",
+		"popupContent": "Tanque Verde Road crossing of Pantano Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.8505027, 32.2491506]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "GolfLinksRd",
+		"popupContent": "Golf Links Road crossing of Pantano Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.8122706, 32.1919002]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "HoughtonRd_Pantano",
+		"popupContent": "Houghton Road crossing of Pantano Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7728251, 32.1675824]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "PW_ColossalCaveRd_UP",
+		"popupContent": "Colossal Cave Road crossing of Pantano Wash"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.6986694, 32.0504121]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CC_MarshStationRd_CC",
+		"popupContent": "Marsh Station Road crossing of Cienega Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.6464466, 32.0200289]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "OldSpanishTrl_RinconCrk",
+		"popupContent": "Old Spanish Trail crossing of Rincon Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.7347533, 32.1339813]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "CmLomaAlta",
+		"popupContent": "Camino Loma Alta crossing of Rincon Creek"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.6892376, 32.1201293]
 	}
 }];
 
