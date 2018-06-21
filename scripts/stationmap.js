@@ -2,7 +2,7 @@
 // Uses leaflet.js to display a map of Flow365 flow monitoring stations.
 // Author: Code for Tucson
 
-var mymap = L.map('mapid').setView([32.2148174, -110.8467341], 11);
+var mymap = L.map('mapid').setView([32.2148174, -110.8467341], 10);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://mapbox.com">Mapbox</a>',
@@ -47,7 +47,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SnyderRd_crossing",
-		"popupContent": "Snyder Road crossing at Sabino Creek"
+		"popupContent": "Snyder Rd crossing at Sabino Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -57,7 +57,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "Hughes_East",
-		"popupContent": "Hughes Road crossing at Sabino Creek"
+		"popupContent": "Hughes Rd crossing at Sabino Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -77,7 +77,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "ParkerRd_crossing",
-		"popupContent": "Parker Road crossing at Sabino Creek"
+		"popupContent": "Parker Rd crossing at Sabino Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -97,7 +97,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SabinoCanyonRd",
-		"popupContent": "Sabino Canyon Road crossing of Tanque Verde Creek"
+		"popupContent": "Sabino Canyon Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -117,7 +117,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CraycroftRd_bridge",
-		"popupContent": "Craycroft Road crossing of Tanque Verde Creek"
+		"popupContent": "Craycroft Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -127,7 +127,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SwanRd_bridge",
-		"popupContent": "Swan Road crossing of Tanque Verde Creek"
+		"popupContent": "Swan Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -137,7 +137,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_TV",
-		"popupContent": "Houghton Road crossing of Tanque Verde Creek"
+		"popupContent": "Houghton Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -157,7 +157,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "WoodlandRd",
-		"popupContent": "Woodland Road crossing of Tanque Verde Creek"
+		"popupContent": "Woodland Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -167,7 +167,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TanqueVerdeRd_TanqueVerde",
-		"popupContent": "Tanque Verde Road crossing of Tanque Verde Creek"
+		"popupContent": "Tanque Verde Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -177,7 +177,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_AC",
-		"popupContent": "Houghton Road crossing of Agua Caliente Wash"
+		"popupContent": "Houghton Rd crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -187,7 +187,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "FtLowellRd_AC",
-		"popupContent": "Fort Lowell Road crossing of Agua Caliente Wash"
+		"popupContent": "Fort Lowell Rd crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -197,7 +197,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "PrinceRd_AC",
-		"popupContent": "Prince Road crossing of Agua Caliente Wash"
+		"popupContent": "Prince Rd crossing of Agua Caliente Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -227,7 +227,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TVLoopRd",
-		"popupContent": "Tanque Verde Loop Road crossing of Tanque Verde Creek"
+		"popupContent": "Tanque Verde Loop Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -237,7 +237,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SoldierTrl_FreemanRd",
-		"popupContent": "Soldier Trail and Freeman Road intersection with Tanque Verde Creek"
+		"popupContent": "Soldier Trail and Freeman Rd intersection with Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -247,7 +247,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "WentworthRd",
-		"popupContent": "Wentworth Road crossing of Tanque Verde Creek"
+		"popupContent": "Wentworth Rd crossing of Tanque Verde Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -277,7 +277,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CountryClubRd_loop_crossing",
-		"popupContent": "Country Club Road crossing of Rillito River"
+		"popupContent": "Country Club Rd crossing of Rillito River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -327,7 +327,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "GrantRd",
-		"popupContent": "Grant Road crossing of Santa Cruz River"
+		"popupContent": "Grant Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -347,7 +347,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "StMarysRd",
-		"popupContent": "St Mary's Road crossing of Santa Cruz River"
+		"popupContent": "St Mary's Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -377,7 +377,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SilverlakeRd",
-		"popupContent": "Silverlake Road crossing of Santa Cruz River"
+		"popupContent": "Silverlake Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -387,7 +387,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "IrvingtonRd",
-		"popupContent": "Irvington Road crossing of Santa Cruz River"
+		"popupContent": "Irvington Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -397,7 +397,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "SanXavierRd",
-		"popupContent": "San Xavier Road crossing of Santa Cruz River"
+		"popupContent": "San Xavier Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -407,7 +407,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "PimaMineRd",
-		"popupContent": "Pima Mine Road crossing of Santa Cruz River"
+		"popupContent": "Pima Mine Rd crossing of Santa Cruz River"
 	},
 	"geometry": {
 		"type": "Point",
@@ -417,7 +417,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "TanqueVerdeRd_Pantano",
-		"popupContent": "Tanque Verde Road crossing of Pantano Wash"
+		"popupContent": "Tanque Verde Rd crossing of Pantano Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -427,7 +427,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "GolfLinksRd",
-		"popupContent": "Golf Links Road crossing of Pantano Wash"
+		"popupContent": "Golf Links Rd crossing of Pantano Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -437,7 +437,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "HoughtonRd_Pantano",
-		"popupContent": "Houghton Road crossing of Pantano Wash"
+		"popupContent": "Houghton Rd crossing of Pantano Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -447,7 +447,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "PW_ColossalCaveRd_UP",
-		"popupContent": "Colossal Cave Road crossing of Pantano Wash"
+		"popupContent": "Colossal Cave Rd crossing of Pantano Wash"
 	},
 	"geometry": {
 		"type": "Point",
@@ -457,7 +457,7 @@ var monitorStations = [{
 	"type": "Feature",
 	"properties": {
 		"name": "CC_MarshStationRd_CC",
-		"popupContent": "Marsh Station Road crossing of Cienega Creek"
+		"popupContent": "Marsh Station Rd crossing of Cienega Creek"
 	},
 	"geometry": {
 		"type": "Point",
@@ -482,6 +482,46 @@ var monitorStations = [{
 	"geometry": {
 		"type": "Point",
 		"coordinates": [-110.6892376, 32.1201293]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "MageeRd",
+		"popupContent": "Magee Rd crossing of Canada del Oro"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-111.0279312, 32.3487498]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "LaCanada_CDO",
+		"popupContent": "La Canada Dr crossing of Canada del Oro"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9978503, 32.3835084]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "1stAve_CDO",
+		"popupContent": "1st Ave crossing of Canada del Oro"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.9593334, 32.402889]
+	}
+}, {
+	"type": "Feature",
+	"properties": {
+		"name": "EdwinRd",
+		"popupContent": "Edwin Rd crossing of Canada del Oro"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-110.873342, 32.511465]
 	}
 }];
 
